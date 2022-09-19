@@ -12,9 +12,9 @@ cat >> 3-islower.c << EOL
 * Return: Always 0
 */
 
-int -slower(int c)
+int _slower(int c)
 {
-if(x >= 97 && c <= 122)
+if(c >= 97 && c <= 122)
 return (1);
 else
 return (0);
