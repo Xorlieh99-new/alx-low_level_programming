@@ -1,0 +1,21 @@
+#include "main.h"
+/**
+*_islower - checks for a lowercase character
+*@c: letter being tested
+* Return Always 0
+cat >> 3-islower.c << EOL
+#include "main.h"
+
+/**
+*_islower - checks for a lowercase character
+*@c: letter being tested
+* Return: Always 0
+*/
+
+int -slower(int c)
+{
+if(x >= 97 && c <= 122)
+return (1);
+else
+return (0);
+}
